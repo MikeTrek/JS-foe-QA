@@ -1,1 +1,1 @@
-# JS-foe-QA
+# JS-for-QA
