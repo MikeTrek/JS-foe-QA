@@ -39,6 +39,20 @@ console.log(sumStr ("2",""));
 console.log(sumStr ("-5", "3"));
 
 //ex9
+function  remainder(a,b) {
+  if (a>b) {
+    result = a%b;
+  } else {
+   result= b%a;
+ }
+ return(result);
+}
+console.log(remainder(17,5));
+console.log(remainder(13,72));
+console.log(remainder(1,0));
+console.log(remainder(0,0));
+
+//ex9
 function opposite(number) {
     return -number; 
 }
