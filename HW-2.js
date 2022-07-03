@@ -121,11 +121,11 @@ console.log(numb.slice(0,8))
 //task10
 let j = 0
 let count = 0;
-while (j<10) {
+while (j < 10) {
     j = count * Math.floor(Math.random() * 2)
     count++;
     console.log(j)
-    if (j>3){
+    if (j > 3){
         console.log(j);
         break;
     }   
